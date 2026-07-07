@@ -8,6 +8,7 @@
 
 - **主题 → 歌词**：主题访谈、叙事视角、意象系统、韵辙与押韵策略
 - **曲风 profile 驱动**：曲式、句长结构、hook 机制、情绪弧线都没有跨曲风默认值，由 12 个曲风 profile（民谣/流行/摇滚/R&B/说唱/中国风/电子/爵士/蓝调/bossa/city-pop…）提供唯一默认来源
+- **可唱性基线**：所有歌满足"人能跟着唱"——核心可跟段/节拍锚/大众音域等五条基线，跟唱三档与 12 曲风实现路径，筛选端硬判据
 - **配置与生成**：风格串六维组装、Exclude 逐歌设计、滑块参数、段落标签写法
 - **迭代修正**：分层控制模型——症状定位到词/标签/风格串/Exclude/Persona 哪一层，不瞎改
 - **去AI味与查重**：装置指纹 9 维查重门禁，杜绝"每首歌都是上一首的换皮"
@@ -33,8 +34,9 @@ git clone https://github.com/woneway/suno-song-creation.git ~/.claude/skills/sun
 |------|------|
 | `SKILL.md` | 主流程：核心认知、分层控制模型、平台机制事实、创作八步流程 |
 | `references/genre-profiles.md` | 12 曲风 profile：身份要素/曲式/词法/弧线/常见跑偏/Suno 要点 |
+| `references/singability.md` | 可唱性基线层：基线五条、跟唱三档、曲风实现路径、词端/配置端杠杆、筛选端硬判据 |
 | `references/proven-templates.md` | 案例库与操作手册：实测风格串、装置库、装置指纹存档、Exclude/滑块、听审清单、发布合规 |
-| `references/lyrics-advanced.md` | 歌词进阶：大师技法、押韵进阶、词曲咬合、交稿 13 项 checklist |
+| `references/lyrics-advanced.md` | 歌词进阶：大师技法、押韵进阶、词曲咬合、交稿 15 项 checklist |
 | `references/music-theory.md` | 音乐基础：十三辙、倒字、曲式、BPM/和声、配器、人声术语 |
 | `references/production-advanced.md` | 制作进阶：旋律文字化、编曲 build 曲线、发布级后期链、参考曲六维拆解 |
 | `references/suno-spec.md` | Suno 平台规格：字段上限、标签清单、滑块机制、编辑功能门槛、中文已知问题 |
